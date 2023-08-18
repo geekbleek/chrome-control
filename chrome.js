@@ -116,6 +116,7 @@ function list() {
                 // Alfred specific properties
                 'arg': `${winIdx},${tabIdx}`,
                 'subtitle': url,
+                'match': title + '|' + url
             }
         }
     }
